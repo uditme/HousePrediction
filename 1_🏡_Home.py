@@ -1,7 +1,15 @@
 import streamlit as st
 st.set_page_config(page_title="House Price Prediction", layout="wide", page_icon="🏡")
 #st.sidebar.success("Select a page")
-st.sidebar.markdown("<a href='https://www.linkedin.com/in/udit-mehra-32692b1b3' target='blank'><img align='center' src='https://img.shields.io/badge/-Prasad Posture-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/prasad-posture-6a3a77215/' alt='Prasad Posture' height='20' width='100' /></a><br><a href='https://github.com/prasadposture' target='blank'><img align='center' src='https://img.shields.io/badge/-prasadposture-black?style=flat-square&logo=GitHub&logoColor=white&link=https://github.com/prasadposture' alt='prasadposture' height='20' width='100' /></a><br><a href='https://www.kaggle.com/prasadposture121' target='blank'><img align='center' src='https://img.shields.io/badge/-prasadposture121-blue?style=flat-square&logo=Kaggle&logoColor=white&link=https://www.kaggle.com/prasadposture121' alt='prasadposture121' height='20' width='100' /></a>", unsafe_allow_html=True)
+st.sidebar.markdown("""
+<a href='https://www.linkedin.com/in/udit-mehra-32692b1b3' target='_blank'>
+    <img align='center' src='https://img.shields.io/badge/-Udit Mehra-blue?style=flat-square&logo=Linkedin&logoColor=white' alt='Udit Mehra' height='20' width='130' />
+</a><br>
+
+<a href='https://github.com/uditme' target='_blank'>
+    <img align='center' src='https://img.shields.io/badge/-uditme-black?style=flat-square&logo=GitHub&logoColor=white' alt='uditme' height='20' width='130' />
+</a>
+""", unsafe_allow_html=True)
 
 
 st.markdown('<h3 style = "background-color: #00BFFF; color :white; text-shadow: 2px 2px 5px black;", align="center">House Price Prediction</h3>',unsafe_allow_html=True)
@@ -463,4 +471,4 @@ with tab17:
        ConLD : Contract Low Down
        Oth : Other""")
 st.write("___")
-st.markdown('<p class="footer-company-name">All Rights Reserved. &copy; 2023 <a href="https://www.linkedin.com/in/udit-mehra-32692b1b3">Udit Mehra</a></p>', unsafe_allow_html=True)
+st.markdown('<p class="footer-company-name">All Rights Reserved. &copy; 2025 <a href="https://www.linkedin.com/in/udit-mehra-32692b1b3">Udit Mehra</a></p>', unsafe_allow_html=True)
